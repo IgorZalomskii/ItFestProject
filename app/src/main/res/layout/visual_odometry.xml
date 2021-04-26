@@ -43,6 +43,7 @@
                 android:id="@+id/forcam"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:scaleType="fitCenter"
                 app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
 
         </LinearLayout>
@@ -65,6 +66,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/photo"/>
 
             </LinearLayout>
@@ -80,6 +82,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/vverh" />
             </LinearLayout>
 
@@ -94,6 +97,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/vniz" />
             </LinearLayout>
 
@@ -108,6 +112,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/levo" />
             </LinearLayout>
 
@@ -122,6 +127,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/pravo" />
             </LinearLayout>
 
@@ -145,6 +151,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/go" />
 
             </LinearLayout>
@@ -160,6 +167,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/levoro" />
 
             </LinearLayout>
@@ -183,6 +191,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/stop" />
 
             </LinearLayout>
@@ -198,6 +207,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/pravoro" />
 
             </LinearLayout>

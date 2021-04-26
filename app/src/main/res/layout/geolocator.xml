@@ -42,6 +42,7 @@
                 android:id="@+id/forcam"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:scaleType="fitCenter"
                 app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
 
         </LinearLayout>
@@ -63,7 +64,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
-                    app:srcCompat="@drawable/photo" />
+                    app:srcCompat="@drawable/photo"
+                    android:scaleType="fitCenter"/>
             </LinearLayout>
 
             <LinearLayout
@@ -77,7 +79,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
-                    app:srcCompat="@drawable/go" />
+                    app:srcCompat="@drawable/go"
+                    android:scaleType="fitCenter"/>
             </LinearLayout>
 
             <LinearLayout
@@ -91,7 +94,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@null"
-                    app:srcCompat="@drawable/stop" />
+                    app:srcCompat="@drawable/stop"
+                    android:scaleType="fitCenter"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -107,7 +111,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@null"
-                android:src="@drawable/geolocator2" />
+                android:src="@drawable/geolocator2"
+                android:scaleType="fitCenter"/>
         </LinearLayout>
 
     </LinearLayout>
